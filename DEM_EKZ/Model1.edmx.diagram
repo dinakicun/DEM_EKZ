@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="791e1714f178454f871c19b4e27cd849" Name="Diagram1">
+        <EntityTypeShape EntityType="SFabricaModel.AppUser" Width="1.5" PointX="8" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Cvet" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Furnitura" Width="1.5" PointX="0.75" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.FurnituraIzdeliya" Width="1.5" PointX="5.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Izdeliya" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Risunok" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Role" Width="1.5" PointX="5.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.SkladFurnituri" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.SkladTkani" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Sostav" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Tip" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Tkani" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.TkaniIzdeliya" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Zakaz" Width="1.5" PointX="10.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.ZakazniyeIzdeliya" Width="1.5" PointX="12.5" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="SFabricaModel.FK__AppUser__Role__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Zakaz__IdManager__503BEA1C" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Zakaz__IdZakazch__4F47C5E3" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Furnitura__IdFur__367C1819" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__SkladFurn__IdFur__625A9A57" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Furnitura__IdIzd__37703C52" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__TkaniIzde__IdIzd__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Zakazniye__IdIzd__58D1301D" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__SkladTkan__IdTka__65370702" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__TkaniIzde__IdTka__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__Zakazniye__IdZak__57DD0BE4" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.CvetTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.RisunokTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.SostavTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.TipFurnituri" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
